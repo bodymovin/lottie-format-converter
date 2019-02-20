@@ -75,11 +75,13 @@ function iterateLayers(layers) {
 }
 
 function iterateAssets(assets) {
-	assets.forEach(asset => {
-		if(asset.layers) {
-			iterateLayers(asset.layers)
-		}
-	})
+	if(assets) {
+		assets.forEach(asset => {
+			if(asset.layers) {
+				iterateLayers(asset.layers)
+			}
+		})
+	}
 }
 
 
