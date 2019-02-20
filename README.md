@@ -1,7 +1,7 @@
 # lottie-format-converter
 lottie script to convert json files to the new lottie format
 
-#how to use
+# how to use
 ```js
 var fs = require('fs');
 var json_converter = require('./src/index.js');
@@ -23,7 +23,7 @@ fs.readFile("./data.json",  "utf8",  function(error, data){
 })
 ```
 
-#traverse directory
+# traverse directory
 ```js
 var fs = require('fs');
 var json_converter = require('./src/index.js');
